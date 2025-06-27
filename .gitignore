@@ -1,0 +1,48 @@
+# === Python (FastAPI) ===
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.db
+*.log
+venv/
+.venv
+env/
+.idea/
+.vscode/
+
+# Uvicorn logs
+*.pid
+
+# Pycharm
+*.iml
+*.ipynb_checkpoints/
+
+# === Node.js / React ===
+# dependencies
+node_modules/
+
+# production build
+build/
+dist/
+
+# misc
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# === Coverage & testing ===
+coverage/
+*.cover
+*.pyc
+htmlcov/
+
+# === OS ===
+Thumbs.db
+Desktop.ini
+
+# === Optional: ignore compiled frontend files in backend ===
+**/static/
